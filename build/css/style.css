@@ -8601,7 +8601,7 @@ textarea.form-control-lg {
   padding: 0 !important;
 }
 
-.p-1, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Subir, .btn-Visualizar, .btn-NoMostrar, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-12, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
+.p-1, .btn-Eliminar, .btn-Modificar, .btn-Nuevo, .btn-Subir, .btn-Visualizar, .btn-NoMostrar, .btn-01, .btn-02, .btn-03, .btn-04, .btn-05, .btn-06, .btn-07, .btn-08, .btn-09, .btn-10, .btn-11, .btn-12, .btn-13, .btn-14, .btn-15, .btn-16, .btn-17, .btn-18, .btn-19, .btn-20, .btn-Alta, .btn-Modi, .btn-Elim, .btn-Regr {
   padding: 0.25rem !important;
 }
 
@@ -8636,7 +8636,7 @@ textarea.form-control-lg {
   padding-left: 0.5rem !important;
 }
 
-.px-3, .btn-01 {
+.px-3 {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
