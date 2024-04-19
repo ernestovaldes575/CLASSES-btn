@@ -4,146 +4,145 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-.btn-21{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #3498db;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 17px;
-    transition: all 0.5s;
-    cursor: pointer;
-    padding: 0 1em 0 1em;
-    font-weight: 600;
+
+ .btn-21{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #3498db;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 0 1em 0 1em;
+  font-weight: 600;
 }
 .btn-21 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-.btn-21 span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
+.btn-21 span::before {
+  content: '⦿';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -15px;
+  transition: 0.2s;
+}
+.btn-21:hover span {
+  padding-left: 1.267em;
+} 
+.btn-21:hover span:before {
+  opacity: 1;
+  left: 0;
 }
 
-.btn-21:hover span {
-    padding-right: .8em;
-} 
-.btn-21:hover span:after {
-    opacity: 1;
-    right: 0;
-}
 .btn-22{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #f1c40f;
-    border: none;
-    color: #000;
-    text-align: center;
-    font-size: 17px;
-    transition: all 0.5s;
-    cursor: pointer;
-    padding: 0 1em 0 1em;
-    font-weight: 600;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f1c40f;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 0 1em 0 1em;
+  font-weight: 600;
 }
 .btn-22 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-.btn-22 span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
+.btn-22 span::before {
+  content: '⦿';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -15px;
+  transition: 0.2s;
 }
-
 .btn-22:hover span {
-    padding-right: .8em;
+  padding-left: 1.267em;
 } 
-.btn-22:hover span:after {
-    opacity: 1;
-    right: 0;
+.btn-22:hover span:before {
+  opacity: 1;
+  left: 0;
 }
 
 .btn-23{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #2ecc71;
-    border: none;
-    color: #FFF;
-    text-align: center;
-    font-size: 17px;
-    transition: all 0.5s;
-    cursor: pointer;
-    padding: 0 1em 0 1em;
-    font-weight: 600;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 0 1em 0 1em;
+  font-weight: 600;
 }
 .btn-23 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-.btn-23 span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
+.btn-23 span::before {
+  content: '⦿';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -15px;
+  transition: 0.2s;
 }
-
 .btn-23:hover span {
-    padding-right: .8em;
+  padding-left: 1.267em;
 } 
-.btn-23:hover span:after {
-    opacity: 1;
-    right: 0;
+.btn-23:hover span:before {
+  opacity: 1;
+  left: 0;
 }
 
 .btn-24{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #e74c3c;
-    border: none;
-    color: #FFF;
-    text-align: center;
-    font-size: 17px;
-    transition: all 0.5s;
-    cursor: pointer;
-    padding: 0 1em 0 1em;
-    font-weight: 600;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e74c3c;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 0 1em 0 1em;
+  font-weight: 600;
 }
 .btn-24 span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-.btn-24 span:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
+.btn-24 span::before {
+  content: '⦿';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -15px;
+  transition: 0.2s;
 }
 .btn-24:hover span {
-    padding-right: .8em;
+  padding-left: 1.267em;
 } 
-.btn-24:hover span:after {
-    opacity: 1;
-    right: 0;
+.btn-24:hover span:before {
+  opacity: 1;
+  left: 0;
 }
 
 .btn-25{
@@ -165,20 +164,20 @@
     position: relative;
     transition: 0.5s;
 }
-.btn-25 span:after {
-    content: '»';
+.btn-25 span::before {
+    content: '⦿';
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -15px;
-    transition: 0.5s;
+    left: -15px;
+    transition: 0.2s;
 }
 .btn-25:hover span {
-    padding-right: .8em;
+    padding-left: 1.267em;
 } 
-.btn-25:hover span:after {
+.btn-25:hover span:before {
     opacity: 1;
-    right: 0;
+    left: 0;
 }
 :root,
 [data-bs-theme=light] {
